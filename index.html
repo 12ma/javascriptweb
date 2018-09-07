@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Knowing Javascript</title>
+    <style>
+    .winner{
+      color:purple;
+    }
+    .selected{
+      color: red;
+    }
+
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+    <h1 id="demo">Hello</h1>
+    <button type="button" onclick="changeContent()">Click Me!</button>
+    <button onclick="this.innerHTML='Maheshwari'">Want to know my surname</button>
+    <span ondblclick="this.style.color='red'">Double-click over me!</span>
+    <p id="time"></p>
+    <button onclick="document.getElementById('time').textContent=Date()">The time is </button>
+    </div>
+    <div class="container" style="padding:50px;">
+    <button onclick="document.getElementById('myImage').src='start.jpg'">Start the Game</button>
+
+    <img id="myImage" src="stop.jpg" style="width:400px;height:500px;">
+
+    <button onclick="document.getElementById('myImage').src='stop.jpg'">Stop the Game</button>
+
+</div class="container-fluid">
+  <h1>Want to play game....</h1>
+  <h2><span id="gmae">hovering game-on button</span> and get here</h2>
+  <button type="button" onmouseover ="hello()">game-on</button>
+  <input type="number" name="" value="">
+  <h3>change the input number upto 10 to see a purple color number...guess it</h3>
+  <p id="p" style="font-size:100px";>value</p>
+  <h3 id="check">Want to check no. of buttons in this page,click here</h3>
+<ul >
+  <li class="lis">changeME</li>
+  <li class="lis">changeME2</li>
+  <li class="lis">Please change me</li>
+</ul>
+
+</div>
+<div class="center">
+
+
+<script type="text/javascript" src="full.js">
+
+    </script>
+
+  </body>
+</html>
